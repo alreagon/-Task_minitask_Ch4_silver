@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chapter4_allminitask</string>
+    <string name="message_dialog1">Dialog Cancellable bisa di tutup dgn klik bagian luar</string>
+    <string name="message_dialog2">Dialog Non Cancelable harus ditutup dari tombol Action</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

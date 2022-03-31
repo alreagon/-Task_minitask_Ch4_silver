@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardpiewfox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true">
+        <!--
+    app:cardElevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardMaxElevation="12dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+   In the above cardview widget
+   cardelevation property will give elevation to your card view
+   card corner radius will provide radius to your card view
+   card background color will give background color to your card view
+   card max elevation will give the cardview maximum elevation
+   card prevent corner overlap will add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.
+   card use compact padding will add padding in API v21+ as well to have the same measurements with previous versions.
+   below are the two widgets imageview and text view we are displaying inside our card view.
+   -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/tittle_image_fox"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/arnold_nyenyenye"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/RoundCorner" />
+
+            <TextView
+                android:id="@+id/tvHeading_fox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="32dp"
+                android:text="ini buat textview"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tittle_image_fox"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <!--        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="8dp"
+                android:background="@color/underline"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardpiewfox" />
+    -->
+
+</androidx.core.widget.NestedScrollView>
