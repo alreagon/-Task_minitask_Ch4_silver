@@ -3,16 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/drawable/batenblue.xml" value="0.1295" />
         <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/drawable/batenmain.xml" value="0.122" />
+        <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/drawable/batenpink.xml" value="0.1295" />
         <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/activity_dialog_android.xml" value="0.22" />
         <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/activity_main.xml" value="0.18333333333333332" />
         <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/activity_main_adapter.xml" value="0.22447916666666667" />
         <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/activity_main_recycler_view_fox.xml" value="0.22447916666666667" />
         <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/activity_recycler_view_main.xml" value="0.22447916666666667" />
         <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/activity_toast_snackbar.xml" value="0.18333333333333332" />
+        <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/custom_list.xml" value="0.22447916666666667" />
+        <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/fragment_dialog_topic4.xml" value="0.22" />
         <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/fragment_ini_dialog.xml" value="0.22447916666666667" />
         <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/ini_custom_dialog.xml" value="0.22447916666666667" />
-        <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/list_item_fox.xml" value="0.5" />
+        <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/list_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/list_item_fox.xml" value="0.25" />
         <entry key="..\:/.DATA GUE/Kuliah/Binar Academy/Tugas/CHAPTER_4/minitask/app/src/main/res/layout/list_view_fox.xml" value="0.5107913669064749" />
       </map>
     </option>

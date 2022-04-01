@@ -13,11 +13,9 @@ class MyAdapter_fox(private val newlist: ArrayList<News_fox>) :
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-
         val itemView =
             LayoutInflater.from(parent.context).inflate(R.layout.list_item_fox, parent, false)
         return MyViewHolder(itemView)
-
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {

@@ -1,11 +1,10 @@
 package com.example.chapter4_allminitask
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.chapter4_allminitask.RecyclerView.RecyclerViewMain
-import com.example.chapter4_allminitask.RecyclerViewFox.MainRecyclerViewFox
 import com.example.chapter4_allminitask.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -32,11 +31,12 @@ class MainActivity : AppCompatActivity() {
             true
         }
         binding.topic3.setOnClickListener {
-            val Intent = Intent(this, MainRecyclerViewFox::class.java)
+            val Intent = Intent(this, RecyclerViewMain::class.java)
             startActivity(Intent)
         }
         binding.topic3.setOnLongClickListener {
-            Toast.makeText(this, "RecyclerView", Toast.LENGTH_LONG).show()
+            var dialog = DialogFragmentTopic4()
+            dialog.show(supportFragmentManager, null)
             true
         }
 
