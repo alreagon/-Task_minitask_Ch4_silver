@@ -3,19 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C3FFFF"
     android:orientation="vertical"
+    android:padding="8dp"
     tools:context=".iniDialogFragment">
 
     <TextView
-        android:id="@+id/tvHello"
+        android:textColor="@color/black"
+        android:id="@+id/tvHelloFragment"
         android:gravity="center"
         android:textSize="21sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_blank_fragment" />
+        android:text="helooo" />
 
     <Button
-        android:id="@+id/btnTutup"
+        android:textColor="@color/white"
+        android:id="@+id/btnTutupFragment"
         android:layout_gravity="center"
         android:text="Tutup"
         android:layout_width="wrap_content"

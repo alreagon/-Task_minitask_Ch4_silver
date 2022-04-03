@@ -1,7 +1,9 @@
 package com.example.chapter4_allminitask
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
+import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chapter4_allminitask.RecyclerView.RecyclerViewMain
@@ -13,6 +15,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        if (Build.VERSION.SDK_INT >= 21) {
+            val window = this.window
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
+            window.statusBarColor = this.resources.getColor(R.color.orenMantep)
+        }
+
 
         binding.topic1.setOnClickListener {
             val Intent = Intent(this, ToastSnackbar::class.java)
@@ -37,6 +47,14 @@ class MainActivity : AppCompatActivity() {
         binding.topic3.setOnLongClickListener {
             var dialog = DialogFragmentTopic4()
             dialog.show(supportFragmentManager, null)
+            true
+        }
+        binding.topic4.setOnClickListener {
+            val Intent = Intent(this, SplashScreen::class.java)
+            startActivity(Intent)
+        }
+        binding.topic4.setOnLongClickListener {
+            Toast.makeText(this, "Shared Preferences", Toast.LENGTH_LONG).show()
             true
         }
 
