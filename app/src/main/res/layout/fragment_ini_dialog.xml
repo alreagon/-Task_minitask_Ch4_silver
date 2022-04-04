@@ -15,7 +15,7 @@
         android:textSize="21sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="helooo" />
+        android:text="Mau pilih kemana?" />
 
     <Button
         android:textColor="@color/white"

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.example.chapter4_allminitask.RecyclerView.RecyclerViewMain
 import com.example.chapter4_allminitask.databinding.ActivityMainBinding
 
@@ -45,13 +46,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent)
         }
         binding.topic3.setOnLongClickListener {
-            var dialog = DialogFragmentTopic4()
-            dialog.show(supportFragmentManager, null)
+            Toast.makeText(this, "RecyclerView", Toast.LENGTH_LONG).show()
             true
         }
         binding.topic4.setOnClickListener {
-            val Intent = Intent(this, SplashScreen::class.java)
-            startActivity(Intent)
+            var dialog = DialogFragmentTopic4()
+            dialog.show(supportFragmentManager, null)
         }
         binding.topic4.setOnLongClickListener {
             Toast.makeText(this, "Shared Preferences", Toast.LENGTH_LONG).show()

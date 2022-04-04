@@ -36,24 +36,24 @@
             android:layout_weight="1"
             android:background="@drawable/batenpink"
             android:elevation="20dp"
-            android:text="Keluar"
+            android:text="Gak jadi"
+            android:textAllCaps="false"
             android:textColor="@color/black" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnkefox"
+            android:id="@+id/btnkenyoba"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:background="@drawable/batenblue"
             android:elevation="20dp"
-
-            android:text="Fox"
+            android:text="nyoba"
             android:textAllCaps="false"
             android:textColor="@color/black" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnkesendiri"
+            android:id="@+id/btnkelatihan"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"

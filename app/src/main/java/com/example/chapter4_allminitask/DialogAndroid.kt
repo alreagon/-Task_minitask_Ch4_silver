@@ -15,21 +15,17 @@ class DialogAndroid : AppCompatActivity() {
         binding = ActivityDialogAndroidBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.DialogStandard.setOnLongClickListener {
+        binding.DialogStandard.setOnClickListener {
             showDialogStandar()
-            true
         }
-        binding.DialogTombolAksi.setOnLongClickListener {
+        binding.DialogTombolAksi.setOnClickListener {
             showDialogNonCancellable()
-            true
         }
-        binding.DialogCustomLayout.setOnLongClickListener {
+        binding.DialogCustomLayout.setOnClickListener {
             showDialogCustom()
-            true
         }
-        binding.DialogFragment.setOnLongClickListener {
+        binding.DialogFragment.setOnClickListener {
             showFragmentDialog()
-            true
         }
 
 

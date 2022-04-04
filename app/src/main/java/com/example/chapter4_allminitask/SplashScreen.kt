@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
 import com.example.chapter4_allminitask.RecyclerView.RecyclerViewMain
+import com.example.chapter4_allminitask.SharedPreferencesLat.SharedPreferencesLat
 
 @Suppress("DEPRECATION")
 class SplashScreen : AppCompatActivity() {
@@ -22,7 +23,7 @@ class SplashScreen : AppCompatActivity() {
         }
 
         Handler().postDelayed({
-            val intent = Intent(this,SharedPreferences::class.java)
+            val intent = Intent(this,SharedPreferencesLat::class.java)
             startActivity(intent)
             finish()
         }, 3000)

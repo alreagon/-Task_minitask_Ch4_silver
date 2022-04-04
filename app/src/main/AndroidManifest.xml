@@ -10,11 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter4_allminitask">
         <activity
+            android:name=".SharedPreferencesLat.HomePageLat"
+            android:exported="false" />
+        <activity
+            android:name=".SharedPreferencesLat.SharedPreferencesLat"
+            android:exported="false" />
+        <activity
             android:name=".SharedPreferences"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".SplashScreen"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".RecyclerViewFox.MainRecyclerViewFox"
             android:exported="false" />
@@ -33,12 +39,11 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
