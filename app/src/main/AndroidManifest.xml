@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter4_allminitask">
         <activity
+            android:name=".RoomStev.RoomMainStev"
+            android:exported="false" />
+        <activity
             android:name=".SharedPreferencesLat.HomePageLat"
             android:exported="false" />
         <activity
